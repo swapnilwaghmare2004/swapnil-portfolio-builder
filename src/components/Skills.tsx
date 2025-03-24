@@ -1,9 +1,10 @@
 
 import React from 'react';
-import { Database, Code, Braces, FileCode, BarChart, ChipIcon, LineChart, Cpu } from 'lucide-react';
+import { Database, Code, Braces, FileCode, BarChart, LineChart, Cpu } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-const ChipIcon = (props: React.SVGProps<SVGSVGElement>) => {
+// Define ChipIcon as a proper React functional component
+const ChipIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
   return (
     <svg
       {...props}
@@ -40,7 +41,7 @@ interface SkillCardProps {
 const SkillCard: React.FC<SkillCardProps> = ({ icon, title, description, delay }) => {
   return (
     <div 
-      className="skill-card"
+      className="relative backdrop-blur-md bg-white/80 rounded-2xl shadow-glass p-6 border border-white/20 overflow-hidden hover:shadow-elegant transition-all duration-500 ease-in-out flex flex-col items-center text-center"
       style={{ 
         animationDelay: `${delay}s`,
         opacity: 0,
