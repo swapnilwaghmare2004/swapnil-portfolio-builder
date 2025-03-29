@@ -44,9 +44,10 @@ const Education = () => {
   const educationItems = [
     {
       title: "B.E. in Electronics & Telecommunication",
-      institute: "Savitribai Phule Pune University (SPPU)",
+      institute: "Nutan Maharashtra Institute Of Engineering & Technology (SPPU)",
       period: "2022 - Present",
-      description: "Studying electronics engineering fundamentals, circuit design, signal processing, and telecommunication systems.",
+      description: "Studying electronics engineering fundamentals, circuit design, signal processing, digital image processing, programming.
+        and telecommunication systems.",
       delay: 0.1
     },
     {
