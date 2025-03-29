@@ -16,18 +16,18 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
               
               <p className="text-foreground/80 mb-8 leading-relaxed">
-                Feel free to reach out to me for opportunities, collaborations, or just to say hello! I'm currently looking for internship & job opportunities in Data Science, AI/ML, and Electronics Engineering.
+                Feel free to reach out to me for opportunities, collaborations, or just to say hello! I'm currently looking for internship opportunities in Data Science, AI/ML, and Electronics Engineering.
               </p>
 
               <div className="space-y-4 mb-8">
                 <a 
-                  href="mailto:waghmareswapnil563@gmail.com.com" 
+                  href="mailto:contact@swapnilwaghmare.com" 
                   className="flex items-center gap-3 text-foreground/80 hover:text-primary transition-colors"
                 >
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                     <Mail size={18} className="text-primary" />
                   </div>
-                  <span>waghmareswapnil563@gmail.com</span>
+                  <span>contact@swapnilwaghmare.com</span>
                 </a>
                 
                 <div className="flex items-center gap-3 text-foreground/80">

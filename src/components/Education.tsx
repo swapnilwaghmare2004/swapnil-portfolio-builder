@@ -44,23 +44,22 @@ const Education = () => {
   const educationItems = [
     {
       title: "B.E. in Electronics & Telecommunication",
-      institute: "Nutan Maharashtra Institute Of Engineering & Technology (SPPU)",
-      period: "2022 - Present",
-      description: "Studying electronics engineering fundamentals, circuit design, signal processing, digital image processing, programming.
-        and telecommunication systems.",
+      institute: "Savitribai Phule Pune University (SPPU)",
+      period: "2021 - Present",
+      description: "Studying electronics engineering fundamentals, circuit design, signal processing, and telecommunication systems.",
       delay: 0.1
     },
     {
       title: "BS in Data Science & Applications",
       institute: "Indian Institute of Technology (IIT) Madras",
-      period: "2023 - Present",
+      period: "2022 - Present",
       description: "Learning data analysis, machine learning, statistical modeling, and programming for data science applications.",
       delay: 0.3
     },
     {
       title: "Higher Secondary Education",
-      institute: "Central Board Of Secondary Education",
-      period: "2020 - 2022",
+      institute: "Maharashtra State Board of Secondary & Higher Secondary Education",
+      period: "2019 - 2021",
       description: "Completed higher secondary education with focus on science and mathematics.",
       delay: 0.5
     }
