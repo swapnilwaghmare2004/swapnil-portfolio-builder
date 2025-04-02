@@ -13,15 +13,19 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 animate-slide-up">
             <h3 className="text-2xl font-bold mb-6 text-foreground">
-              I'm Swapnil Waghmare, a Data Science & Electronics Engineering Student
+              Who I Am
             </h3>
             
             <p className="text-foreground/80 mb-6 leading-relaxed">
-              I am pursuing a BE in Electronics & Telecommunication Engineering from SPPU and a BS in Data Science & Application from IIT Madras. With a strong interest in Data Analytics, AI, ML, and Electronics & Telecommunication, I aim to apply my technical and analytical skills to solve complex challenges.
+              I'm Swapnil Waghmare, I am pursuing a BE in Electronics & Telecommunication Engineering from NMIET College and a BS in Data Science & Application from IIT Madras. With a strong interest in Data Analytics, AI, ML, and Electronics & Telecommunication, I aim to apply my technical and analytical skills to solve complex challenges. I am emerging professional in AI/ML and software development. My passion lies at the intersection of artificial intelligence, web development, electronics & telecommunication and solving complex technological challenges.
             </p>
             
             <p className="text-foreground/80 mb-8 leading-relaxed">
-              I am passionate about leveraging data-driven insights to innovate and looking for internship opportunities to contribute to projects at the intersection of these dynamic fields.
+              I'm a E&TC Engineer with a passion for Artificial Intelligence 🤖 and Machine Learning 📊, currently pursuing my BE at NMIET Pune. I thrive on building innovative AI solutions, exploring the latest tech trends, and working on real-world projects that drive impact 🌍. Whether it's machine learning models, intelligent automation, or AI-driven applications, I love creating cutting-edge solutions that push the boundaries of technology! 💡✨
+            </p>
+
+            <p className="text-foreground/80 mb-8 leading-relaxed">
+              With expertise in Python, C, C++, AI/ML frameworks (TensorFlow, PyTorch, Numpy, Pandas, Matplotlib), and Web Development, I am constantly exploring new technologies and improving my skills. My goal is to leverage AI to build intelligent systems that solve real-world problems and make an impact.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
