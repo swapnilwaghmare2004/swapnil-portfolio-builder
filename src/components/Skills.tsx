@@ -4,14 +4,14 @@ import { Database, Code, Braces, FileCode, BarChart, LineChart, Cpu } from 'luci
 import { Progress } from "@/components/ui/progress";
 import { cn } from '@/lib/utils';
 
-// Define ChipIcon as a proper React functional component
-const ChipIcon: React.FC<React.SVGAttributes<SVGSVGElement>> = (props) => {
+// Define ChipIcon as a proper React functional component with explicit size handling
+const ChipIcon: React.FC<React.SVGAttributes<SVGSVGElement> & { size?: number }> = ({ size = 24, ...props }) => {
   return (
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
