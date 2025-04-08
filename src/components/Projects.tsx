@@ -71,6 +71,13 @@ const Projects = () => {
       delay: 0.1
     },
     {
+      title: "Attendance Radius Recognition System",
+      description: "A smart attendance system using Wi-Fi and ESP microcontroller to automate presence tracking. The system detects and records attendance in real-time, updating entries directly into an Excel sheet, eliminating the need for manual sign-ins.",
+      link: "https://drive.google.com/file/d/10KGfYYeldbV-Bis787QCX0NvFTHmESzC/view?usp=sharing",
+      technologies: ["IoT", "ESP8266", "Wi-Fi", "Automation", "Excel Integration"],
+      delay: 0.15
+    },
+    {
       title: "Airline Dataset Analysis (BIG DATA ANALYSIS)",
       description: "Performed 538 Airline Dataset Analysis using tools like PYSPARK and Dask demonstrated scalability.",
       link: "https://colab.research.google.com/drive/13pSw5LUdEeUdBIvx0zEIUFPpJMUxu8xL?usp=sharing",
