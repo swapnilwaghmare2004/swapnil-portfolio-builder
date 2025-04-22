@@ -10,6 +10,7 @@ import Certifications from '../components/Certifications';
 import Resume from '../components/Resume';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Background3D from '../components/Background3D';
 
 const Index = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
+      <Background3D />
       <Navbar />
       <Hero />
       <About />

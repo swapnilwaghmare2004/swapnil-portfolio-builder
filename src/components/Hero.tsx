@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 const Hero = () => {
   return (
     <section id="home" className="hero-section">
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-transparent opacity-50" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-transparent opacity-80" />
       
       <div className="section-container relative z-10 flex flex-col items-center justify-center text-center stagger-animation">
         <div className="mb-8 relative inline-block">
