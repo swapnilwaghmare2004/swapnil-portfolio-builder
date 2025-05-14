@@ -78,18 +78,32 @@ const Projects = () => {
       delay: 0.15
     },
     {
+      title: "Automatic Overload Detector and Overload Avoidance System for Four-Wheelers",
+      description: "A system designed to detect and prevent overloading in four-wheeler vehicles, enhancing safety and vehicle longevity by monitoring weight distribution and providing real-time alerts.",
+      link: "https://drive.google.com/file/d/1JgC1OnNOTekHmE3oVpjd9lyquk1D33-P/view?usp=sharing",
+      technologies: ["Embedded Systems", "Sensors", "Safety Systems", "Real-time Monitoring"],
+      delay: 0.2
+    },
+    {
+      title: "Object Detection and Edge Enhancement using MATLAB",
+      description: "A MATLAB-based image processing system that detects and enhances objects in images using edge detection, morphological operations, and region property analysis.",
+      link: "https://drive.google.com/file/d/1P7_qzMMTqYK47ajEPINE4Qgcp_VHyBiO/view?usp=sharing",
+      technologies: ["MATLAB", "Image Processing", "Edge Detection", "Computer Vision"],
+      delay: 0.25
+    },
+    {
       title: "Airline Dataset Analysis (BIG DATA ANALYSIS)",
       description: "Performed 538 Airline Dataset Analysis using tools like PYSPARK and Dask demonstrated scalability.",
       link: "https://colab.research.google.com/drive/13pSw5LUdEeUdBIvx0zEIUFPpJMUxu8xL?usp=sharing",
       technologies: ["PySpark", "Dask", "Python", "Data Analysis", "Big Data"],
-      delay: 0.2
+      delay: 0.3
     },
     {
       title: "Predictive Analysis using Machine Learning",
       description: "Built a machine learning model (regression/classification) to predict outcomes based on a housing real estate dataset.",
       link: "https://colab.research.google.com/drive/1TTbnIALgxtc25p1nSR3s5Hbe7UHDOVr8?usp=sharing",
       technologies: ["Machine Learning", "Python", "Data Science", "Predictive Modeling"],
-      delay: 0.3
+      delay: 0.35
     }
   ];
 
