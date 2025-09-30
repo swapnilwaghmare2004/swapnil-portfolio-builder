@@ -95,7 +95,7 @@ const Certifications = () => {
     {
       title: "Introduction to IoT and Digital Transformation",
       issuer: "Cisco Networking Academy",
-      link: "https://drive.google.com/file/d/1gNhkxo_bmQrnav6BG6l6kfp-wqLQY0bw/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1gtB0bbPK-duLc7ATmI-hg_7LMnHwWDs5/view?usp=sharing",
       delay: 0.7
     },
     {

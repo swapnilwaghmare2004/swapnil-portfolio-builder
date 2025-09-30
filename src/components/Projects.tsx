@@ -104,6 +104,20 @@ const Projects = () => {
       link: "https://colab.research.google.com/drive/1TTbnIALgxtc25p1nSR3s5Hbe7UHDOVr8?usp=sharing",
       technologies: ["Machine Learning", "Python", "Data Science", "Predictive Modeling"],
       delay: 0.35
+    },
+    {
+      title: "NSE NIFTY 50 Stock Data Analysis and Visualization Using Python",
+      description: "Developed and automated an end-to-end pipeline for time-series forecasting and trading signal evaluation on historical NIFTY 50 data. Built, tuned, and validated time-series forecasting models (ARIMA, Prophet, ML regression) to predict price trends and stock volatility. Designed and backtested simple algorithmic trading strategies.",
+      link: "https://github.com/swapnilwaghmare2004/NSE-NIFTY-50-Stock-Data-Analysis-and-Visualization-Using-Python",
+      technologies: ["Python", "ARIMA", "Prophet", "Time-Series", "Trading Algorithms", "Data Visualization"],
+      delay: 0.4
+    },
+    {
+      title: "Real Time Traffic Detection with YOLOv8 OpenCV",
+      description: "Real-time traffic detection system using YOLOv8 and OpenCV with CUDA acceleration for efficient vehicle detection and tracking.",
+      link: "https://github.com/swapnilwaghmare2004/Real-Time-Traffic-Detection-with-YOLOv8-OpenCV-CUDA-main",
+      technologies: ["YOLOv8", "OpenCV", "CUDA", "Computer Vision", "Real-time Processing"],
+      delay: 0.45
     }
   ];
 
