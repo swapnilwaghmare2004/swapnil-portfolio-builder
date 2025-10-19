@@ -64,60 +64,67 @@ const ProjectCard: React.FC<ProjectProps> = ({
 const Projects = () => {
   const projects = [
     {
+      title: "Traffic Light Controller Using 8051 Microcontroller",
+      description: "Developed a Traffic Light Controller using AT89C2052 microcontroller to manage traffic at a four-way intersection with Red, Yellow, and Green LEDs. Features timed sequences for each direction and 7-segment displays showing countdown timers for signal changes, improving traffic flow efficiency and safety.",
+      link: "https://drive.google.com/file/d/1jmwEFFszcV4H7dfNIQqdXcfYg7S4YFO6/view?usp=sharing",
+      technologies: ["8051 Microcontroller", "Embedded C", "LED Control", "7-Segment Display", "Traffic Systems"],
+      delay: 0.1
+    },
+    {
       title: "Line Follower Robot",
       description: "An automated robot designed to follow a black line on a white surface using smartelex Rls 6 sensor and DRV8833 motor controller.",
       link: "https://drive.google.com/file/d/1bD-Z7J2PjWtKNm--1z1C0zKpkf2-3Jxc/view?usp=sharing",
       technologies: ["Arduino", "Electronics", "Robotics", "Embedded Systems"],
-      delay: 0.1
+      delay: 0.15
     },
     {
       title: "Attendance Radius Recognition System",
       description: "A smart attendance system using Wi-Fi and ESP microcontroller to automate presence tracking. The system detects and records attendance in real-time, updating entries directly into an Excel sheet, eliminating the need for manual sign-ins.",
       link: "https://drive.google.com/file/d/10KGfYYeldbV-Bis787QCX0NvFTHmESzC/view?usp=sharing",
       technologies: ["IoT", "ESP8266", "Wi-Fi", "Automation", "Excel Integration"],
-      delay: 0.15
+      delay: 0.2
     },
     {
       title: "Automatic Overload Detector and Overload Avoidance System for Four-Wheelers",
       description: "A system designed to detect and prevent overloading in four-wheeler vehicles, enhancing safety and vehicle longevity by monitoring weight distribution and providing real-time alerts.",
       link: "https://drive.google.com/file/d/1JgC1OnNOTekHmE3oVpjd9lyquk1D33-P/view?usp=sharing",
       technologies: ["Embedded Systems", "Sensors", "Safety Systems", "Real-time Monitoring"],
-      delay: 0.2
+      delay: 0.25
     },
     {
       title: "Object Detection and Edge Enhancement using MATLAB",
       description: "A MATLAB-based image processing system that detects and enhances objects in images using edge detection, morphological operations, and region property analysis.",
       link: "https://drive.google.com/file/d/1P7_qzMMTqYK47ajEPINE4Qgcp_VHyBiO/view?usp=sharing",
       technologies: ["MATLAB", "Image Processing", "Edge Detection", "Computer Vision"],
-      delay: 0.25
+      delay: 0.3
     },
     {
       title: "Airline Dataset Analysis (BIG DATA ANALYSIS)",
       description: "Performed 538 Airline Dataset Analysis using tools like PYSPARK and Dask demonstrated scalability.",
       link: "https://colab.research.google.com/drive/13pSw5LUdEeUdBIvx0zEIUFPpJMUxu8xL?usp=sharing",
       technologies: ["PySpark", "Dask", "Python", "Data Analysis", "Big Data"],
-      delay: 0.3
+      delay: 0.35
     },
     {
       title: "Predictive Analysis using Machine Learning",
       description: "Built a machine learning model (regression/classification) to predict outcomes based on a housing real estate dataset.",
       link: "https://colab.research.google.com/drive/1TTbnIALgxtc25p1nSR3s5Hbe7UHDOVr8?usp=sharing",
       technologies: ["Machine Learning", "Python", "Data Science", "Predictive Modeling"],
-      delay: 0.35
+      delay: 0.4
     },
     {
       title: "NSE NIFTY 50 Stock Data Analysis and Visualization Using Python",
       description: "Developed and automated an end-to-end pipeline for time-series forecasting and trading signal evaluation on historical NIFTY 50 data. Built, tuned, and validated time-series forecasting models (ARIMA, Prophet, ML regression) to predict price trends and stock volatility. Designed and backtested simple algorithmic trading strategies.",
       link: "https://github.com/swapnilwaghmare2004/NSE-NIFTY-50-Stock-Data-Analysis-and-Visualization-Using-Python",
       technologies: ["Python", "ARIMA", "Prophet", "Time-Series", "Trading Algorithms", "Data Visualization"],
-      delay: 0.4
+      delay: 0.45
     },
     {
       title: "Real Time Traffic Detection with YOLOv8 OpenCV",
       description: "Real-time traffic detection system using YOLOv8 and OpenCV with CUDA acceleration for efficient vehicle detection and tracking.",
       link: "https://github.com/swapnilwaghmare2004/Real-Time-Traffic-Detection-with-YOLOv8-OpenCV-CUDA-main",
       technologies: ["YOLOv8", "OpenCV", "CUDA", "Computer Vision", "Real-time Processing"],
-      delay: 0.45
+      delay: 0.5
     }
   ];
 

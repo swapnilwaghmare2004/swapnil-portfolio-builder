@@ -8,13 +8,7 @@ const Resume = () => {
   // For this demo, we'll just link to a dummy resume
   // In a real scenario, you would host your resume PDF and link to it
   const handleDownloadResume = () => {
-    // Create a link to a sample resume (replace with your actual resume link)
-    const link = document.createElement('a');
-    link.href = "/path-to-your-resume.pdf"; // Replace with actual path
-    link.download = "Swapnil_Waghmare_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open("https://drive.google.com/file/d/1DbPRJr5Ez7HzTgpK1MdCqjEnmqNUNPRl/view?usp=sharing", "_blank");
   };
 
   return (
