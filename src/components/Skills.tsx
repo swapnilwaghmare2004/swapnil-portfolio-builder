@@ -163,6 +163,12 @@ const Skills = () => {
       title: "Data Visualization",
       description: "Creating informative and insightful visual representations of data",
       delay: 0.8
+    },
+    {
+      icon: <Database size={28} />,
+      title: "Cloud Computing AWS",
+      description: "Experience with Amazon Web Services for cloud infrastructure and deployment",
+      delay: 0.9
     }
   ];
 
