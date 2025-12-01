@@ -103,6 +103,12 @@ const Certifications = () => {
       issuer: "Cisco Networking Academy",
       link: "https://drive.google.com/file/d/1gNhkxo_bmQrnav6BG6l6kfp-wqLQY0bw/view?usp=sharing",
       delay: 0.8
+    },
+    {
+      title: "AWS re/Start Graduate",
+      issuer: "Amazon Web Services",
+      link: "https://www.credly.com/badges/0b1c8b18-7b54-4f1f-b6b2-29755e0a8dad/linked_in_profile",
+      delay: 0.9
     }
   ];
 

@@ -125,6 +125,34 @@ const Projects = () => {
       link: "https://github.com/swapnilwaghmare2004/Real-Time-Traffic-Detection-with-YOLOv8-OpenCV-CUDA-main",
       technologies: ["YOLOv8", "OpenCV", "CUDA", "Computer Vision", "Real-time Processing"],
       delay: 0.5
+    },
+    {
+      title: "IoT-based Smart Water Level Indicator",
+      description: "A smart water level monitoring system using ESP32 microcontroller and ultrasonic sensor. Measures water level in real time and sends data to a cloud dashboard for remote monitoring and visualization. Low-cost, accurate system enabling efficient water management through IoT and cloud integration.",
+      link: "https://drive.google.com/file/d/1fns74aw-r2TlkILIbshy-mGXHau7AnIc/view?usp=sharing",
+      technologies: ["ESP32", "Ultrasonic Sensor", "IoT", "Cloud Dashboard", "Water Management"],
+      delay: 0.55
+    },
+    {
+      title: "Cloud Enabled Temperature and Humidity Monitoring System",
+      description: "A cloud-based IoT simulation that monitors temperature and humidity using Python-generated virtual sensor data. Uploads data every 15 seconds to ThingSpeak cloud platform for real-time visualization. Demonstrates IoT-cloud integration, API communication, and Platform as a Service (PaaS) concepts.",
+      link: "https://drive.google.com/file/d/1C-wSaZvvg3-tVWcKWG2xGLY4NrpR7zGR/view?usp=sharing",
+      technologies: ["Python", "ThingSpeak", "IoT", "Cloud Integration", "PaaS", "Real-time Monitoring"],
+      delay: 0.6
+    },
+    {
+      title: "Sahyadri Quant Capital Website",
+      description: "A quantitative trading startup website showcasing data-driven financial solutions. Features advanced trading strategies, real-time portfolio performance, and institutional financial services with a sleek fintech dark theme and neon accents.",
+      link: "https://swapnilwaghmare2004.github.io/Sahyadri-Quant-Capital/",
+      technologies: ["HTML", "CSS", "JavaScript", "Fintech UI", "Web Design"],
+      delay: 0.65
+    },
+    {
+      title: "Map Navigate India Website",
+      description: "An advanced full-stack mapping and navigation platform built for India and worldwide users. Offers an interactive, feature-rich alternative to mainstream map services with special focus on Indian locales and multilingual support.",
+      link: "https://swapnilwaghmare2004.github.io/Map-Navigate-India/",
+      technologies: ["HTML", "CSS", "JavaScript", "Mapping API", "Navigation", "Multilingual"],
+      delay: 0.7
     }
   ];
 
